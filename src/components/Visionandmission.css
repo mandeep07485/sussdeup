@@ -1,0 +1,35 @@
+.vision-section {
+  background-color: #f8f9fa;
+}
+
+.vision-section img {
+  max-height: 400px;
+  object-fit: cover;
+}
+
+.vision-card {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.vision-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+}
+
+.vision-card h4 {
+  font-weight: 600;
+}
+
+.vision-card p {
+  line-height: 1.7;
+  color: #495057;
+}
+
+@media (max-width: 768px) {
+  .vision-section img {
+    max-height: 300px;
+  }
+}

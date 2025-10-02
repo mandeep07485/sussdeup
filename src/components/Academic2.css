@@ -1,0 +1,266 @@
+.a21 img {
+  margin-top: 150px;
+  filter: brightness(40%);
+}
+
+.a21 h1 {
+  margin-left: 400px;
+  position: relative;
+  bottom: 320px;
+  color: white;
+  font-family: sans-serif;
+  font-size: 60px;
+}
+
+
+.a21 p {
+  margin-left: 720px;
+  position: relative;
+  bottom: 360px;
+  color: white;
+}
+
+.a21 button {
+  margin-left: 600px;
+  bottom: 315px;
+  position: relative;
+  background-color: black;
+  color: white;
+}
+
+
+.a21 button:hover {
+  cursor: pointer;
+  color: rgb(160, 105, 23);
+  transition-duration: 0.2s;
+}
+
+
+.a22 {
+  margin-top: -120px;
+  display: flex;
+  margin-left: 50px;
+}
+
+.a22 h1 {
+  border-bottom: 3px solid red;
+  font-family: sans-serif;
+  color: #333;
+}
+
+.a23 img {
+  margin-left: 45px;
+}
+
+
+.a22 h2 {
+  margin-left: -60px;
+  font-family: sans-serif;
+
+}
+
+
+.a22 p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ecc2c2;
+  padding: 15px 20px;
+  border-radius: 6px;
+  border-left: 4px solid red;
+  line-height: 1.7;
+  box-shadow: 0px 4px 10px rgba(160, 4, 30, 0.919);
+}
+
+
+.a24 {
+  display: flex;
+  margin-top: 70px;
+  margin-left: 70px;
+}
+
+.a25 h1 {
+  margin-left: 30px;
+  border-bottom: 3px solid blue;
+  font-family: sans-serif;
+  color: #333;
+  margin-top: -40px;
+}
+
+.a25 h2 {
+  margin-left: -35px;
+  font-family: sans-serif;
+  
+}
+
+.a25 p {
+  margin-left: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ccc2ec;
+  padding: 15px 20px;
+  border-radius: 6px;
+  border-right: 4px solid blue;
+  line-height: 1.7;
+  box-shadow: 0px 4px 10px rgba(35, 4, 160, 0.919);
+}
+
+.a24 img{
+  margin-top: 60px;
+}
+
+.a26{
+  margin-top: 70px;
+  margin-left: 70px;
+  display: flex;
+}
+
+.a26 h1{
+  border-bottom: 3px solid rgb(0, 255, 72);
+  font-family: sans-serif;
+  color: #333;
+}
+
+.a26 h2{
+  border-bottom: 3px solid rgb(9, 255, 0);
+  font-family: sans-serif;
+  text-align: left;
+}
+
+
+.a27 img{
+  margin-top: 40px;
+}
+
+.a26 p{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #c2eccc;
+  padding: 15px 20px;
+  border-radius: 6px;
+  border-left: 4px solid greenyellow;
+  line-height: 1.7;
+  box-shadow: 0px 4px 10px rgba(4, 160, 40, 0.919);
+  margin-right: 20px;
+}
+
+.a29 p{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 50px;
+  background-color: #dae84877;
+  padding: 15px 20px;
+  border-radius: 6px;
+  border-right: 4px solid yellow;
+  line-height: 1.7;
+  box-shadow: 0px 4px 10px rgba(160, 155, 4, 0.919);
+}
+
+.a28{
+  margin-top: 70px;
+  margin-left: 70px;
+  display: flex;
+}
+
+.a29 h1{
+  margin-left: 50px;
+  margin-top: -1px;
+  border-bottom: 3px solid yellow;
+  font-family: sans-serif;
+  color: #333;
+
+}
+
+
+.a28 img{
+  margin-top: 30px;
+}
+
+.a29 h2{
+ text-align: left;
+ margin-left: 50px;
+   border-bottom: 3px solid yellow;
+  font-family: sans-serif;
+}
+
+.a30{
+  margin-top: 80px;
+  margin-left: 70px;
+  display: flex;
+}
+
+.a30 p{
+  background-color: #e848cb77;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 15px 20px;
+  border-radius: 6px;
+  margin-right: 20px;
+  border-left: 4px solid rgb(232, 50, 219);
+  line-height: 1.7;
+  box-shadow: 0px 4px 10px rgba(160, 4, 100, 0.919);
+}
+
+.a30 h1{
+  border-bottom: 3px solid rgb(255, 0, 195);
+  font-family: sans-serif;
+  color: #333;
+  margin-top: -10px;
+}
+
+
+.a30 h2{
+  border-bottom: 3px solid rgb(255, 0, 191);
+  font-family: sans-serif;
+  text-align: left;
+}
+
+.a31 img{
+  margin-top: 50px;
+}
+
+.a32{
+  margin-top: 70px;
+  margin-left: 70px;
+  display: flex;
+}
+
+.a33 h1{
+  margin-left: 30px;
+  border-bottom: 3px solid gray;
+  font-family: sans-serif;
+  color: #333;
+}
+
+.a33 h2{
+  margin-left: 30px;
+  border-bottom: 3px solid gray;
+  font-family: sans-serif;
+  text-align: left;
+}
+
+
+.a33 p{
+  margin-left: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 15px 20px;
+  border-radius: 6px;
+  margin-right: 20px;
+  border-right: 4px solid gray;
+  line-height: 1.7;
+  box-shadow: 0px 4px 10px rgba(160, 4, 100, 0.045);
+  background-color: rgb(173, 173, 173);
+}
+
+.a34 {
+  display: flex;
+  margin-top: 60px;
+  margin-left: 50px;
+}
+
+.a34 h1 {
+  color: burlywood;
+}
+
+.a34 p {
+  line-height: 1.8;
+}
+
+
+.a35 img {
+  margin-left: 50px;
+}

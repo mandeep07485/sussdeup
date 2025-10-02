@@ -1,0 +1,87 @@
+@media only screen and (max-width: 600px) {
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 1080px) {
+}
+
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 915px) {
+  .pay_btn {
+    margin-left: 80px;
+  }
+  .features_area {
+    display: none;
+  }
+  .play_btn {
+    background-size: 45%;
+  }
+  .viksit_img {
+    width: 100%;
+  }
+
+  .campus_media {
+    margin-top: -680px;
+  }
+
+  .campus img {
+    width: 100%;
+  }
+  .mousigned img {
+    width: 100%;
+  }
+  .footer_top img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 812px) {
+  .pay_btn {
+    margin-left: 80px;
+  }
+  .features_area {
+    display: none;
+  }
+  .play_btn {
+    background-size: 41% !important;
+  }
+  .viksit_img {
+    width: 100%;
+  }
+
+  .campus_media {
+    margin-top: -680px;
+  }
+
+  .campus img {
+    width: 100%;
+  }
+  .mousigned img {
+    width: 100%;
+  }
+  .footer_top img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1280px) {
+  .degrees {
+    padding-left: 207px;
+  }
+  .play_btn {
+    background-size: 82%;
+  }
+  .play_btn1 {
+    position: absolute;
+    margin-top: -205px;
+    width: 128px;
+    margin-left: -160px;
+  }
+  .campus_media {
+    margin-top: -488px;
+  }
+}

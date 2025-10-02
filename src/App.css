@@ -1,0 +1,718 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+
+.logo img {
+  width: 100px;
+  margin-left: -83px;
+}
+
+.header_top a {
+  color: grey;
+}
+
+.header_top a:hover {
+  color: blue;
+}
+
+.header_info ul {
+  display: inline-flex;
+  list-style-type: none;
+}
+
+.header_info li {
+  padding-left: 50px;
+}
+
+.header_info a {
+  text-decoration: none;
+}
+
+.header_top-right {
+  display: inline-flex;
+}
+
+.header_login {
+  padding-left: 50px;
+  margin-top: -24px;
+}
+
+.header_login a {
+  text-decoration: none;
+}
+
+.header_btn {
+  padding-left: 50px;
+  margin-top: -32px;
+}
+
+.contact_btn {
+  background-color: blue;
+  color: white;
+  border-color: blue;
+  font-size: 20px;
+}
+
+.header_btn a {
+  text-decoration: none;
+}
+
+.header_bottom {
+  padding-bottom: 20px;
+  margin-bottom: 50px !important;
+}
+
+.dropdown-menu a {
+  color: black;
+}
+
+.dropdown-menu a:hover {
+  color: blue;
+}
+
+.image img {
+  width: 100%;
+}
+
+.features_area {
+  background-color: antiquewhite;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-left: 115px;
+  margin-right: 115px;
+  margin-top: -200px;
+  position: absolute;
+}
+
+.features_item {
+  display: inline-flex;
+}
+
+.features_content {
+  padding-left: 30px;
+}
+
+.features_title a {
+  text-decoration: none;
+  color: black;
+}
+
+.features_title a:hover {
+  color: blue;
+}
+
+.sv-btn a {
+  text-decoration: none;
+  color: black;
+}
+
+.sv-btn a:hover {
+  color: blue;
+}
+
+.mobile_menu {
+  display: inline-flex;
+  list-style-type: none;
+}
+
+.mobile_menu_list {
+  padding-left: 10px;
+}
+
+.mobile_menu_list ul {
+  list-style-type: none;
+}
+
+.mobile_menu a {
+  text-decoration: none;
+}
+
+.pay_btn {
+  margin-left: 233px;
+  position: absolute;
+  background-color: blue;
+  color: #fff;
+  border-color: blue;
+}
+
+.dropdown-toggle::after {
+  content: "";
+  display: inline-block;
+  margin-left: 0.5em;
+  vertical-align: 0.255em;
+  border-top: 0.3em solid;
+  border-right: 0.3em solid transparent;
+  border-left: 0.3em solid transparent;
+}
+
+.degree {
+  margin-top: 65px;
+}
+
+.degrees {
+  padding-left: 95px;
+}
+
+.elementor-icon-list {
+  list-style-type: none;
+}
+
+.elementor-icon:hover {
+  color: blue;
+}
+
+.elementor-item {
+  display: inline-flex;
+}
+
+.elementor-icon-list2 {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+.counter_inner {
+  margin-top: 120px;
+  background-color: rgb(218, 214, 214);
+  padding: 30px;
+}
+
+.counter_content {
+  padding-left: 30px;
+}
+
+.play_btn {
+  background-image: url(public/untitled1.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 430px;
+  fill: #fff;
+  margin-top: 60px;
+}
+
+.play_btn1 {
+  position: absolute;
+  margin-top: -69px;
+}
+
+.e-eicon-play {
+  width: 52% !important;
+}
+
+.campus {
+  padding-top: 80px;
+}
+
+.campus_img {
+  padding-top: 30px;
+}
+
+.skills {
+  margin-top: 40px;
+  margin-left: 94px;
+}
+
+.viksit {
+  margin-top: 120px;
+}
+
+.viksit img {
+  margin-top: 61px;
+}
+
+.viksit button {
+  background-color: blue;
+  border-color: blue;
+  padding: 15px;
+  color: #fff;
+}
+
+.mousigned {
+  margin-top: 150px;
+}
+.national_building {
+  margin-top: 100px;
+  margin-left: 40px;
+  font-size: 48px;
+}
+
+.education_knowledge {
+  margin-top: 40px;
+}
+.education {
+  background-color: rgba(255, 255, 0, 0.678);
+  padding-left: 40px;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  font-size: 20px;
+}
+
+.Establishment {
+  background-color: rgba(0, 0, 255, 0.425);
+  padding-left: 40px;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  font-size: 20px;
+}
+
+.Empowerment {
+  background-color: rgba(128, 128, 128, 0.589);
+  padding-left: 40px;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  font-size: 20px;
+}
+
+.Development {
+  background-color: rgba(255, 0, 0, 0.568);
+  padding-left: 40px;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  font-size: 20px;
+}
+
+.Employment {
+  background-color: rgba(128, 128, 128, 0.589);
+  padding-left: 40px;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  font-size: 20px;
+}
+
+.Promotion {
+  background-color: rgba(255, 255, 0, 0.678);
+  padding-left: 40px;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  font-size: 20px;
+}
+
+.footer_top {
+  margin-top: 170px;
+}
+
+.footer_top button {
+  background-color: blue;
+  border-color: blue;
+  padding: 10px;
+  color: #fff;
+}
+
+.footer_icon {
+  display: inline-flex;
+}
+
+.footer_icon {
+  padding-bottom: 80px;
+}
+
+.footer_icon2 {
+  padding-left: 40px;
+}
+
+.footer_icon3 {
+  padding-left: 40px;
+}
+
+.footer_list {
+  list-style-type: none;
+}
+
+.footer_list a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer_list a:hover {
+  color: blue;
+}
+
+.footer_bottom {
+  margin-top: 100px;
+}
+
+.footer_bottom img {
+  width: 177px;
+}
+
+.footer_top_img {
+  margin-top: 100px;
+  margin-left: 30px;
+}
+
+.campus_media button {
+  background-color: blue;
+  border-color: blue;
+  padding: 13px;
+  border-radius: 15px;
+  color: aliceblue;
+}
+
+.campus_media button:hover {
+  background-color: blueviolet;
+}
+
+.navbar {
+  width: 100%;
+  padding: 15px 20px;
+
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.navbar.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: darkblue;
+  color: white;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* contact form */
+
+.contact_form {
+  background-image: url("public/form.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  padding: 80px 0;
+}
+
+.contact_form::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* dark overlay for contrast */
+  z-index: 1;
+}
+
+.contact_form .card {
+  position: relative;
+  z-index: 2; /* above overlay */
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.95
+  ); /* solid but slightly transparent */
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+}
+
+.contact_form .card h3 {
+  font-weight: 700;
+  color: #1e272e;
+}
+
+.contact_form .form-control {
+  border-radius: 10px;
+}
+
+.contact_form .btn-primary {
+  border-radius: 10px;
+  padding: 10px 0;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+
+.contact_form .btn-primary:hover {
+  background-color: #6c5ce7;
+  border-color: #6c5ce7;
+  transform: translateY(-2px);
+}
+
+.pay_navbar {
+  display: inline-flex;
+  background-color: blue;
+  width: 100%;
+  padding-left: 40px;
+  padding-top: 16px;
+  margin: 20px 20px 20px 0px;
+}
+
+.pay_navbar img {
+  width: 40px;
+}
+
+.pay_navbar p {
+  padding-left: 20px;
+  color: #fff;
+}
+
+.heading {
+  margin-left: 20px;
+}
+
+.Account {
+  margin-left: 134px;
+  margin-top: 70px;
+}
+
+.navbar_list {
+  list-style-type: none;
+}
+
+.navbar_list ul {
+  list-style-type: none;
+}
+
+.navbar_list a {
+  text-decoration: none;
+  color: rgba(128, 128, 128, 0.856);
+}
+
+.navbar_list a:hover {
+  color: blue;
+}
+
+.main-menu {
+  position: absolute;
+  margin-left: -16px;
+}
+
+.Chancellor {
+  background-image: url("https://foeii.in/wp-content/uploads/2025/06/foeii-university.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 400px;
+  position: relative;
+}
+
+/* Dark overlay for better text visibility */
+.Chancellor::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.Chancellor h4,
+.Chancellor p {
+  position: relative;
+  z-index: 2;
+}
+
+.skilling {
+  margin-top: 118px;
+}
+
+.skilling h3 {
+  margin-top: 48px;
+}
+
+.sandeep img {
+  width: 573px;
+}
+
+.sandeep h3 {
+  padding-left: 100px;
+  padding-top: 30px;
+}
+
+.sandeep p {
+  padding-left: 68px;
+  padding-top: 30px;
+}
+
+.University {
+  margin-top: 100px;
+}
+
+.University img {
+  width: 99%;
+}
+
+.University h3 {
+  margin-left: 140px;
+}
+
+.University p {
+  margin-left: 40px;
+  padding-top: 40px;
+  font-size: 20px;
+}
+
+.governor h2 {
+  margin-top: 80px;
+  margin-left: 67px;
+}
+
+.governor p {
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+/* Application process */
+
+/* Section Background */
+.app-section {
+  background: linear-gradient(135deg, #eef2f3, #dfe9f3);
+}
+
+/* Heading Style */
+.app-heading {
+  font-size: 30px;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+/* Card Styling */
+.app-card {
+  border-radius: 15px;
+  background: #ffffff;
+  border: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.app-card:hover {
+  transform: translateY(-8px);
+  background: #f1f9ff;
+}
+
+/* Card Title */
+.card-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #007bff;
+}
+
+/* Card Text */
+.card-text {
+  font-size: 16px;
+  color: #555;
+}
+
+/* eligibility criteria */
+
+.eligibility {
+  margin-top: 80px;
+  background-color: #555;
+  padding: 40px;
+  font-size: 74px;
+  color: whitesmoke;
+  padding-left: 328px;
+}
+
+.Undergraduate {
+  margin-top: 110px;
+}
+
+.Undergraduate h2 {
+  padding-top: 40px;
+  color: blue;
+}
+
+.Undergraduate p {
+  padding-top: 50px;
+  font-size: 20px;
+}
+
+.Undergraduate img {
+  width: 422px;
+}
+
+.Postgraduate {
+  margin-top: 115px;
+}
+
+.Postgraduate img {
+  width: 524px;
+}
+
+.Postgraduate h2 {
+  padding-top: 40px;
+  padding-left: 70px;
+  color: blue;
+}
+
+.Postgraduate p {
+  padding-top: 50px;
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+/* feestructure */
+
+.fee-heading {
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.program-title {
+  margin: 20px 0 10px;
+  font-weight: 600;
+}
+
+.table {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* scholarship */
+
+.scholarship-section {
+  background-color: #f0f4f8;
+}
+
+.scholarship-block {
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+}
+
+.scholarship-block:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+}
+
+.scholarship-block .icon {
+  font-size: 40px;
+}

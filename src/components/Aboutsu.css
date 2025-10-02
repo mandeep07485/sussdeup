@@ -1,0 +1,25 @@
+.about-section {
+  background-color: #f8f9fa;
+}
+
+.about-section h2 {
+  font-weight: 700;
+  color: #343a40;
+}
+
+.about-section p {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #495057;
+}
+
+.about-section img {
+  max-height: 400px;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .about-section img {
+    max-height: 300px;
+  }
+}

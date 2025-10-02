@@ -1,0 +1,61 @@
+/* Hero Section */
+.hero {
+  height: 70vh;
+  background: url("https://foeii.in/wp-content/uploads/2025/06/foeii-university.jpg")
+    no-repeat center center/cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero .overlay {
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  inset: 0;
+}
+
+.hero-content {
+  z-index: 2;
+  color: #fff;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.hero-content p {
+  font-size: 1.3rem;
+  margin-top: 10px;
+}
+
+/* Section Styling */
+.container h2 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.container h5 {
+  color: #6c757d;
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+.container p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.img-fluid {
+  max-height: 350px;
+  object-fit: cover;
+}
+
+/* Button Styling */
+.btn-warning {
+  font-weight: bold;
+  padding: 10px 25px;
+  border-radius: 25px;
+}

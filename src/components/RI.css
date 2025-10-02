@@ -1,0 +1,95 @@
+/* General page styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f7f9fc;
+  margin: 0;
+  padding: 0;
+}
+
+/* Section headings */
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #1a3c6e;
+  margin: 30px 0 20px;
+  position: relative;
+}
+
+h2::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 4px;
+  background: #0077b6;
+  margin: 10px auto 0;
+  border-radius: 2px;
+}
+
+/* Main navbar */
+.navbar {
+  background: #1a3c6e;
+  padding: 12px 0;
+  border-radius: 8px;
+  max-width: 900px;
+  margin: 0 auto 30px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 8px 14px;
+  border-radius: 6px;
+  transition: background 0.3s, color 0.3s;
+}
+
+.nav-link:hover {
+  background: #0077b6;
+  color: #f9f9f9;
+}
+
+/* Secondary nav (University Overview) */
+div nav {
+  max-width: 800px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 15px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+div nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+}
+
+div nav ul li,
+div nav ul a {
+  color: #34495e;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+div nav ul a:hover,
+div nav ul li:hover {
+  background: #e3f2fd;
+  color: #0077b6;
+}

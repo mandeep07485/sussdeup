@@ -1,0 +1,231 @@
+.b1 img {
+  margin-top: 150px;
+  filter: brightness(40%);
+}
+
+.b1 h1 {
+  margin-left: 440px;
+  position: relative;
+  bottom: 320px;
+  color: white;
+  font-family: sans-serif;
+  font-size: 60px;
+}
+
+.b1 p {
+  margin-left: 720px;
+  position: relative;
+  bottom: 360px;
+  color: white;
+}
+
+.b1 button {
+  margin-left: 600px;
+  bottom: 315px;
+  position: relative;
+  background-color: black;
+  color: white;
+}
+
+.b1 button:hover {
+  cursor: pointer;
+  color: rgb(160, 105, 23);
+  transition-duration: 0.2s;
+}
+
+.b2 {
+    margin-top: -120px;
+}
+
+.b2 p{
+      font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  line-height: 1.7;
+  color: #1663e7;
+  background-color: #ecc2c2;
+  padding: 15px 20px;
+  border-radius: 6px;
+  border-left: 5px solid blue;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+  transition: all 0.3s ease;
+}
+
+.b2 h1{
+    font-family: 'Roboto', sans-serif;
+  font-size: 32px;
+  color: blue;
+  border-left: 5px solid blue;
+  padding-left: 10px;
+  background-color: #ecc2c2;
+  width: fit-content;
+  
+}
+
+.b2 h2{
+    font-family: sans-serif;
+    text-align: left;
+}
+
+.b2 h3{
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.b3{
+    margin-top: 100px;
+}
+
+.b3 h1{
+    text-align: right;
+    font-family: 'Roboto', sans-serif;
+    color: red;
+  border-right: 5px solid red;
+  padding-right: 5px;
+}
+
+.b3 h2{
+    text-align: right;
+    font-family: sans-serif;
+}
+
+.b3 h3{
+    text-align: right;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.b3 p{
+       font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  line-height: 1.7;
+  color: #e71632;
+  background-color: #c2ecc8;
+  padding: 15px 20px;
+  border-radius: 6px;
+  border-right: 5px solid red;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+  transition: all 0.3s ease;
+}
+
+.b4{
+    margin-top: 100px;
+}
+
+.b4 h1{
+    font-family: 'Roboto', sans-serif;
+    color: #b76e79;
+  border-left: 5px solid  #b76e79;
+  padding-left: 10px;
+   background-color: #fdf6f0;
+   width: fit-content;
+}
+
+.b4 h2{
+    font-family: sans-serif;
+    text-align: left;
+}
+
+.b4 h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.b4 p{
+    font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  line-height: 1.7;
+  color: #b76e79;
+  background-color: #fdf6f0;
+  padding: 15px 20px;
+  border-radius: 6px;
+  border-left: 5px solid #b76e79;;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+  transition: all 0.3s ease;
+}
+
+.b5{
+    margin-top: 100px;
+}
+
+.b5 h1{
+    text-align: right;
+    font-family: 'Roboto', sans-serif;
+    color: #4a6c4d;
+  border-right: 5px solid #4a6c4d;
+  padding-right: 5px;
+}
+
+.b5 h2{
+    text-align: right;
+    font-family: sans-serif;
+}
+
+.b5 h3{
+    text-align: right;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.b5 p{
+      font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  line-height: 1.7;
+  color: #4a6c4d;
+  background-color: #bbddfa;
+  padding: 15px 20px;
+  border-radius: 6px;
+  border-right: 5px solid #4a6c4d;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+  transition: all 0.3s ease;
+}
+
+.b6{
+    margin-top: 100px;
+}
+
+.b6 h1{
+      font-family: 'Roboto', sans-serif;
+    color: #191970;
+  border-left: 5px solid  #191970;
+  padding-left: 10px;
+   background-color: #fdf6f0;
+   width: fit-content;
+}
+
+.b6 h2{
+    font-family: sans-serif;
+    text-align: left;
+}
+
+.b6 h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.b6 p{
+       font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  line-height: 1.7;
+  color: #191970;
+  background-color: #e6e6fa;
+  padding: 15px 20px;
+  border-radius: 6px;
+  border-left: 5px solid #191970;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+  transition: all 0.3s ease;
+}
+
+
+.b7 {
+  display: flex;
+  margin-top: 60px;
+  margin-left: 50px;
+}
+
+.b7 h1 {
+  color: burlywood;
+}
+
+.b7 p {
+  line-height: 1.8;
+}
+
+
+.b8 img {
+  margin-left: 50px;
+}
